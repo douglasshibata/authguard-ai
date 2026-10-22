@@ -1,0 +1,45 @@
+# Java / Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+HELP.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Frontend / Angular / Node
+node_modules/
+.angular/
+dist/
+.npm
+.eslintcache
+
+# Logs and misc
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OWASP dependency-check
+dependency-check-report.*
+.owasp/
